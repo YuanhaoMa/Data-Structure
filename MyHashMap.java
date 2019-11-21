@@ -25,15 +25,16 @@ public class MyHashMap{
 		}
     }
     
-		Node[] table;
-		int size;
-		int capacity;
+    
+    Node[] table;
+	int size;
+	int capacity;
 		
-		public MyHashMap(){
-				size = 0;
-				capacity = DEFAULT_SIZE;
-				table = new Node[capacity];
-		}
+	public MyHashMap(){
+		size = 0;
+		capacity = DEFAULT_SIZE;
+		table = new Node[capacity];
+	}
 		
 		public MyHashMap(int capacity){
 				this.size = 0;
