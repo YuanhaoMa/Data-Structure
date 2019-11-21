@@ -9,20 +9,20 @@ public class MyHashMap{
         public Node(int key, int val){
             this.key = key;
             this.val = val;
-			this.next = null;
+	        this.next = null;
         }
 				
-				int getVal(){
-						return this.val;
-				}
+	    int getVal(){
+	        return this.val;
+		}
 				
-				int getKey(){
-						return this.key;
-				}
+		int getKey(){
+			return this.key;
+		}
 				
-				void setVal(int val){
-						this.val = val;
-				}
+		void setVal(int val){
+			this.val = val;
+		}
     }
     
 		Node[] table;
