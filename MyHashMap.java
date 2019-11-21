@@ -1,6 +1,6 @@
 public class MyHashMap{
     static final int DEFAULT_SIZE = 16;
-		static final double DEFAULT_FLOAT = 0.75;
+    static final double DEFAULT_FLOAT = 0.75;
     class Node{
         int key;
         int val;
@@ -9,7 +9,7 @@ public class MyHashMap{
         public Node(int key, int val){
             this.key = key;
             this.val = val;
-						this.next = null;
+			this.next = null;
         }
 				
 				int getVal(){
